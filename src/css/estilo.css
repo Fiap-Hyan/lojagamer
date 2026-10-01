@@ -1,8 +1,8 @@
 :root{
-    --color-primary:green;
+    --color-primary:rgb(218, 138, 255);
     --bg-dark:#141414;
     --text-color:#fff;
-    --btn-color:#95ff00;
+    --btn-color:#8c00ff;
     --header-bg:rgba(0,0,0,0.8);
     --linear-bg: linear-gradient(to right, aqua, purple);
 }
@@ -13,7 +13,7 @@
 }
 
 .titulo{
-    background-image: linear-gradient(to right, #95ff00,#A327F5,#95ff00);
+    background-image: linear-gradient(to right, #1c1aa5,#A327F5,#1c1aa5);
     text-transform: uppercase;
     margin-bottom: 20px;
     font-weight: 700;
@@ -29,6 +29,6 @@
 @keyframes acender {
     to{
         color:var(--text-color);
-        text-shadow: 0 0 10px #32f323, 0 0 20px #a8dfe1;
+        text-shadow: 0 0 10px #1c1aa5, 0 0 20px #a8dfe1;
     }
 }

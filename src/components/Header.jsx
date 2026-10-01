@@ -5,20 +5,20 @@ const Header = () => {
   return (
     <header className="flex justify-between items-center py-6 px-[5%] bg-black">
       <h1 className="logo p-2 text-white text-[2rem] font-bold cursor-pointer transition-all">
-        LOJA<span className="text-[#95ff00] p-5">GAME</span></h1>
+        LOJA<span className="text-[#8e63c0] p-5">GAMER</span></h1>
       <nav>
         <ul className="flex list-none items-center gap-8">
           <li>
-            <Link to="/" className="text-white text-lg no-underline hover:text-[#95ff00] hover:uppercase hover:font-bold" >Home</Link>
+            <Link to="/" className="text-white text-lg no-underline hover:text-[#8e63c0] hover:uppercase hover:font-bold" >Home</Link>
           </li>
           <li>
-            <Link to="/jogos" className="text-white text-lg no-underline hover:text-[#95ff00] hover:uppercase hover:font-bold" >Jogos</Link>
+            <Link to="/jogos" className="text-white text-lg no-underline hover:text-[#8e63c0] hover:uppercase hover:font-bold" >Jogos</Link>
           </li>
           <li>
-            <Link to="/contato" className="text-white text-lg no-underline hover:text-[#95ff00] hover:uppercase hover:font-bold" >Contato</Link>
+            <Link to="/contato" className="text-white text-lg no-underline hover:text-[#8e63c0] hover:uppercase hover:font-bold" >Contato</Link>
           </li>
           <li>
-            <Link to="/login" className="text-white text-lg no-underline hover:text-[#95ff00] hover:uppercase hover:font-bold" >Login</Link>
+            <Link to="/login" className="text-white text-lg no-underline hover:text-[#8e63c0] hover:uppercase hover:font-bold" >Login</Link>
           </li>
         </ul>
       </nav>
