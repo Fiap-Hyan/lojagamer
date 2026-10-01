@@ -25,6 +25,9 @@
     animation: acender 0.5s forwards;
 }
 
+.textotitulo{
+    font-family: "Roboto", sans-serif;
+}
 
 @keyframes acender {
     to{
